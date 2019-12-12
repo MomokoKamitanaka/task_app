@@ -5,7 +5,7 @@
       <li class="nav_todo">TODO</li>
       <li><%= link_to "リストを作成", "#", class: "nav_list" %></li>
       <i class="fas fa-list"></i>      
-      <li><%= link_to "サインアウト", "#", class: "nav_signout"%></li>
+      <li><%= link_to "サインアウト", destroy_user_session_path, class: "nav_signout", method: :delete %></li>
     </ul>
   </div>
 </div>
