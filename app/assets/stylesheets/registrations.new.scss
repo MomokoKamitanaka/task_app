@@ -6,9 +6,24 @@
   margin:0 auto;
   width: 60%;
   height:100vh;
-  background: aqua;  
+  background:white;  
 }
 
 .signup_inner{
   text-align: center;
+}
+
+.form-group{
+  margin: 0 auto;
+  width: 500px;
+  height: 100px;
+}
+
+
+
+
+.btn.submitBtn {
+  background: chartreuse;
+  width: 200px;;
+
 }
