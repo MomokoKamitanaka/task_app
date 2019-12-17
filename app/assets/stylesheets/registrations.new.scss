@@ -1,0 +1,30 @@
+@mixin signup_text {
+  
+}
+
+.signup_container{
+  margin:0 auto;
+  width: 60%;
+  height:100vh;
+  background:white;  
+}
+
+.signup_inner{
+  text-align: center;
+}
+
+.form-group{
+  margin: 0 auto;
+  width: 600px;
+  height: 100px;
+}
+
+
+
+
+
+.btn.submitBtn {
+  background: beige;
+  width: 200px;;
+
+}
