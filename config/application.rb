@@ -11,9 +11,13 @@ module TaskApp
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
+<<<<<<< Updated upstream
     config.i18n.default_locale = :ja
     # localeの言語設定を日本語
 
+=======
+    
+>>>>>>> Stashed changes
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
