@@ -1,0 +1,17 @@
+
+<div class="top_page">
+  <div class="list_wrapper">
+    <% @lists.each do |list| %>
+      <div class="list">
+        <div class="list_header">
+          <h2 class="list_header_title"><%= list.title %></h2>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+<%# # blog(@list)が空(@list = List.newな状態)の場合は、url: list_path, method: postを自動推測、つまりListControllerのcreateアクションにデータを送る
+list(@list)が空でない(@list = List.find(〇)な状態)場合は、url: edit_lidt_pathを自動推測、つまりListControllerのeditアクションにデータを送る  %>
