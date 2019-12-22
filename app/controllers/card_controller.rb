@@ -25,6 +25,7 @@ before_action :set_card, only: [:show, :edit, :update, :destroy]
 
 
   def edit
+    @lists = List.where(user: current_user)
   end
 
   def update
