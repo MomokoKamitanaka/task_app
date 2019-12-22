@@ -10,13 +10,15 @@
           </div>          
         </div>
 
-        <%# ここからカード %>
-        <div class="card_wrapper">
-          <% list.cards.each do |card| %>
-            <div class="card">
-              <h3 class="card_title"><%= card.title %></h3>
-            </div>
+        <div class="cardWrapper">
+          <% list.cards.each do |card| %>                    
+            <%= link_to list_card_path(list, card), class:"card_detail_link" do %>
+              <div class="card">
+                <h3 class="card_title"><%= card.title %></h3>
+              </div>
+            <% end%>
           <% end %>
+
           <div class="card_add">
             <i class="far fa-plus-square"></i>
               <%= link_to "さらにカードを追加", new_list_card_path(list), class: "addCard_link" %>
