@@ -1,6 +1,6 @@
 class CardController < ApplicationController
 
-before_action :set_card, only: [:show, :edit, :update]
+before_action :set_card, only: [:show, :edit, :update, :destroy]
 
 
 
@@ -33,6 +33,12 @@ before_action :set_card, only: [:show, :edit, :update]
     else
       render action: :edit
   end
+end
+
+
+def destroy
+  @card.destroy
+  redirect_to :root
 end
 
 
