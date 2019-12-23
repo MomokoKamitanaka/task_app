@@ -18,20 +18,30 @@
   }
 }
 
+.main{
+  background: #910000;
+}
+
+.signup_title{
+  color: #b7a598;
+}
+
 .signup_page{
   margin:0 auto;
   width: 60%;
   height:100vh;
-  margin-top: 10vh;
+  
+  padding-top: 10vh;
 }
 
 .signup_container{
-  text-align: center;
-  
+  text-align: center;  
+  color: #b7a598;
 }
 
 .form-group{
   @include form-group;
+  color: #b7a598;
 }
 
 .btn.submitBtn {

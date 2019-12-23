@@ -5,7 +5,7 @@
 }
 
 @mixin submitbtn{
-  background: grey;
+  background: #b7a598;
   color: #fff;
   width: 200px;
   margin-top: 20px;
@@ -22,13 +22,17 @@
   margin: 0 auto;
   width: 60%;
   height: 100vh;
-  margin-top: 10vh;
-  
+  padding-top: 10vh;
 }
 
 
 .signin_container{
   text-align: center;
+  
+}
+
+.signin_title{
+  color: #b7a598;
 }
 
 .form-group{
