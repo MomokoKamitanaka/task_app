@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.card_new_page{
-  background: grey;
-  width: 100%;
-  height: 100vh;
+.cardnewPage{  
+  .cardnewForm{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
 }
 
-.card_new_container{
-  background: hotpink;
-  width: 40%;
-  height: 400px;
+.cardnewForm_title{
+  margin-bottom: 20px;
 }
