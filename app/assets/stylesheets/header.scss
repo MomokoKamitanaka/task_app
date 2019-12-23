@@ -20,24 +20,26 @@
   }
 }
 
+.text_color{
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .header_name{
-  margin-left: 30px;
   font-size: 23px;
 }
 
 .header_title{
   font-size: 25px;
   font-weight: bold;
-  margin-left: 560px;
 }
 
 .header_newlist{
   font-size: 23px;
-  margin-left: 560px;
 }
 
 .fa-edit{
-  color: #fff;
   font-size: 23px;
   padding-top: 4px;
   margin-right: 20px;
@@ -45,5 +47,4 @@
 
 .header_signout{
   font-size: 23px;
-  margin-right: 30px;;
 }
