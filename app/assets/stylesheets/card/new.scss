@@ -10,6 +10,13 @@
   }
 }
 
-.cardnewForm_title{
+.cardnewForm{
+  &_title{
   margin-bottom: 20px;
+  font-size: 23px;
+  }
+  &_memo{
+    font-size: 23px;
+  }
 }
+
