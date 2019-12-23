@@ -1,0 +1,20 @@
+.cardeditPgae{
+  .container{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    .cardeditForm{
+      &_title{
+        margin-bottom: 30px;
+        font-size: 23px;
+      }
+      &_memo{
+        margin-bottom: 30px;
+        font-size: 23px;
+      }
+      &_list{
+        font-size: 23px;
+      }
+    }
+  }
+}
