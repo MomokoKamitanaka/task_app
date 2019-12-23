@@ -1,0 +1,22 @@
+
+// サインアップ、サインインの入力フォーム
+@mixin form-group {
+  margin: 0 auto;
+  width: 600px;
+  height:100px;
+}
+
+// サインアップ、サインインのボタン
+@mixin submitbtn{
+  background: grey;
+  color: #fff;
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 90px;
+  transition: opacity .5s;
+  cursor: pointer;
+  &:hover {
+    opacity: .6;
+  }
+}
