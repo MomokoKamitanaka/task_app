@@ -1,28 +1,49 @@
 .header{
-  .nav{
-    width: 100%;
-    background: beige;
-    ul{
-      display: flex;
-      justify-content: space-between;
-      li{
-        display: inline-block;
-        a{
-          text-decoration: none;
-        }
-      }
-    }
+  background: #026aa7;
+  &_nav{
+    height: 80px;
   }
 }
-.nav_todo{
-  margin-left: 600px;
+
+.header_menu{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  li{
+    list-style: none;
+        color: #fff;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  }
 }
 
-.nav_list{
-  margin-left: 500px;
-
+.header_name{
+  margin-left: 30px;
+  font-size: 23px;
 }
 
-.nav_signout{
+.header_title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 560px;
+}
 
+.header_newlist{
+  font-size: 23px;
+  margin-left: 560px;
+}
+
+.fa-edit{
+  color: #fff;
+  font-size: 23px;
+  padding-top: 4px;
+  margin-right: 20px;
+}
+
+.header_signout{
+  font-size: 23px;
+  margin-right: 30px;;
 }
