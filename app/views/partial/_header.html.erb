@@ -1,16 +1,15 @@
 <header class="header">
-  <nav class="header_nav">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-2 header_name text_color text-center"><%= current_user.name %>さん</div>
-        <div class="col-2"></div>
-        <div class="col-4 header_title text-center text_color"><%= link_to "ToDo", root_path, class: "header_title_link", :style => "color: white;" %></p></div>
-        <div class="col-2 header_newlist text_color text-right">
-          <%= link_to "リストを作成",  new_list_path, class: "header_newlist_link", :style => "color: white;" %>
-          <i class="fas fa-edit"></i>
-        </div>
-        <div class="col-2 header_signout text_color "><%= link_to "サインアウト", destroy_user_session_path, class: "header_signout_link", method: :delete, :style => "color: white;" %></div>
-      </div>
-    </div>
-  </nav>
-</header>
+    <nav class="nav">
+      <ul class="header_menu">
+        <li class="nav-link"><%= current_user.name %>さん</li>
+        <li class="header_menu_title"><%= link_to "kanban", root_path, class: "nav-link" %></li>
+        <li>
+          <ul class="header_menu_inner">
+            <%# リストを作成するリンクは今後開発していくので、今は"#"にしておきます。 %>
+            <li><%= link_to "リストを作成", "#", class: "nav-link listNew" %></li>
+            <li><%= link_to "サインアウト", "#", class: "nav-link" %></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>

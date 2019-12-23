@@ -1,50 +1,44 @@
-.header{
+.header {
   background: #026aa7;
-  &_nav{
-    height: 80px;
-  }
-}
-
-.header_menu{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  li{
-    list-style: none;
+  padding: 10px;
+  .nav {
+    .header_menu {
+      display: flex;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      padding: 0;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        list-style: none;
         color: #fff;
-  a{
-    color: #fff;
-    text-decoration: none;
+        a {
+          color: #fff;
+        }
+      }
+      &_title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+        font-weight: bold;
+      }
+      &_inner {
+        display: flex;
+        padding: 0;
+        align-items: center;
+        .listNew {
+          &:after {
+            font-family: "Font Awesome 5 Free";
+            content: "\f044";
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
-  }
-}
-
-.text_color{
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.header_name{
-  font-size: 23px;
-}
-
-.header_title{
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header_newlist{
-  font-size: 23px;
-}
-
-.fa-edit{
-  font-size: 23px;
-  padding-top: 4px;
-  margin-right: 20px;
-}
-
-.header_signout{
-  font-size: 23px;
 }
