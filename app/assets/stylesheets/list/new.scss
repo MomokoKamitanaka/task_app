@@ -12,20 +12,12 @@
   }
 }
 
-.todo_input{
-  margin-top: 20vh;
-}
-
-.list_new_page {
-  height: 100vh;
-}
-
-
-.list_new_container{
-  background: aqua; 
-  margin: 0 auto;
-  width: 40%;
-  
+.listnewPage {
+  .new_list{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 200px;
+  }
 }
 
 .submitBtn{
