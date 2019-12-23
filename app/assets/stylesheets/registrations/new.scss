@@ -1,0 +1,37 @@
+@mixin form-group {
+  margin: 0 auto;
+  width: 600px;
+  height:100px;
+}
+
+.signup_page{
+  margin:0 auto;
+  width: 60%;
+  height:100vh;
+  background:white;  
+  margin-top: 10vh;
+}
+
+.signup_container{
+  text-align: center;
+  
+}
+
+.form-group{
+  @include form-group;
+}
+
+.btn.submitBtn {
+  background: grey;
+  color: #fff;
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 90px;
+  transition: opacity .5s;
+  cursor: pointer;
+  &:hover {
+    opacity: .6;
+  }
+  
+}
