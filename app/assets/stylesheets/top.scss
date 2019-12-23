@@ -3,24 +3,27 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .topPage{
-  background: #bababa;
+  // background: #bababa;
   height: 100vh;
+  background-image: url(https://with-asset.chouseisan.com/uploads/2018/07/22125751/PnLzxfl04i6fwuQuyzZen2z8v28UjFxyHXHj8Iqj-1400x933.jpeg);
+  background-size: cover;
   .listWrapper{
     padding-top: 30px;
     display: flex;
     align-items: baseline;
     .list{
-      background: #e2e4e6;
+      background: #5D310C;
       padding: 10px;
       width: 250px;
       margin-left: 20px;
       &_header{
         justify-content: space-between;
         display: flex;
+        color: #b7a598;
         &_action{
           .fa-trash, .fa-pen{
             font-size: 18px;
-            color: #8c8c8c;
+            color: #b7a598;
             margin-top: 10px;
           }
         }
@@ -40,7 +43,7 @@
         font-size: 20px;
         color: black;
       &_detail{
-        color: #999;
+        color: #b7a598;
         }
       }
       }
@@ -53,9 +56,9 @@
 
 .addCard{
   .fa-plus-square{
-    color: #8c8c8c;
+    color: #b7a598;
   }
   &_link{
-    color: #8c8c8c;
+    color: #b7a598;
   }
 }
