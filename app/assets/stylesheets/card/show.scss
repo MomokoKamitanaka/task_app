@@ -1,0 +1,22 @@
+.cardetailPage{ 
+    .cardContents{
+      margin: 0 auto;
+      width: 600px;
+      margin-top: 200px;
+      &_title{
+        font-size: 25px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 30px;
+      }
+      &_memo{
+        font-size: 25px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 30px;
+      }
+      &_list{
+        font-size: 25px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 30px;
+      }
+    }
+  }
