@@ -3,9 +3,9 @@
     <ul class=header_menu>
       <li class="header_name"><%= current_user.name %>さん<li>
       <li class="header_title"><%= link_to "ToDo", root_path, class: "header_title_link" %></li>
-      <li class="header_newlist"><%= link_to "リストを作成", "#", class: "header_newlink_link" %></li>
+      <li class="header_newlist"><%= link_to "リストを作成",  new_list_path, class: "header_newlist_link" %></li>
       <i class="fas fa-edit"></i>
-      <li class="header_signout"><%= link_to "サインアウト", destroy_user_session_path, class: "header_signout_link" %></li>
+      <li class="header_signout"><%= link_to "サインアウト", destroy_user_session_path, class: "header_signout_link", method: :delete %></li>
     </ul>
   </nav>
 </header>
