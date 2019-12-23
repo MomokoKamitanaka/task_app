@@ -2,31 +2,60 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.top_page{
-  background: gray;
+.topPage{
+  background: #bababa;
+  height: 100vh;
+  .listWrapper{
+    padding-top: 30px;
+    display: flex;
+    align-items: baseline;
+    .list{
+      background: #e2e4e6;
+      padding: 10px;
+      width: 250px;
+      margin-left: 20px;
+      &_header{
+        justify-content: space-between;
+        display: flex;
+        &_action{
+          .fa-trash, .fa-pen{
+            font-size: 18px;
+            color: #8c8c8c;
+            margin-top: 10px;
+          }
+        }
+      }
+      
+    }
+  }
 }
 
-html{
-  height: 100vw;
+.cardWrapper{
+  .cardDetail_link{
+    text-decoration: none;
+    .card{
+      margin-bottom: 10px;
+      padding: 10px;
+      &_title{
+        font-size: 20px;
+        color: black;
+      &_detail{
+        color: #999;
+        }
+      }
+      }
+    }
+  }
+
+.fa-bars{
+  color: #8c8c8c;
 }
 
-.list_wrapper{
-  width: 100%;
-  height: 60px;
-  background: aqua;
-  display: flex; 
-  justify-content: space-between;
-}
-.todo_list{}
-
-.list{
-  padding: 0.2em 0.5em;
-  margin: 2em 0;
-  background: #d6ebff;
-  box-shadow: 0px 0px 0px 10px #d6ebff;
-  border: dashed 2px white;
-}
-
-.container_down {
-  flex-wrap:wrap;
+.addCard{
+  .fa-plus-square{
+    color: #8c8c8c;
+  }
+  &_link{
+    color: #8c8c8c;
+  }
 }
